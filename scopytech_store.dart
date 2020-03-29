@@ -4,7 +4,8 @@ class MemberProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar:  LBAppBar().getAppBar(),
+      appBar:   AppBar(
+        title: Text('scopytech store') ),
                   drawer:  LBDrawer().getDrawer(),
                               body: ListView(
                                 children: <Widget>[
